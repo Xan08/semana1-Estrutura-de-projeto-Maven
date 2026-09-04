@@ -13,6 +13,8 @@ Executar todas as verificações do projeto:
 
 ### Gerar o pacote
 
-Para compilar, executar os testes e gerar o pacote do projeto:
+Para compilar o projeto, executar as fases anteriores do ciclo de build e gerar o pacote:
 
 `mvn package`
+
+O arquivo gerado ficará no diretório `target/`.
